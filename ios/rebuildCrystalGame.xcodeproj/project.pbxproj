@@ -16,6 +16,22 @@
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* rebuildCrystalGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* rebuildCrystalGameTests.m */; };
+		39AFA67C2431D3E300ED9F21 /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 39AFA66C2431D3E300ED9F21 /* Fontisto.ttf */; };
+		39AFA67D2431D3E300ED9F21 /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 39AFA66D2431D3E300ED9F21 /* Octicons.ttf */; };
+		39AFA67E2431D3E300ED9F21 /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 39AFA66E2431D3E300ED9F21 /* Feather.ttf */; };
+		39AFA67F2431D3E300ED9F21 /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 39AFA66F2431D3E300ED9F21 /* Entypo.ttf */; };
+		39AFA6802431D3E300ED9F21 /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 39AFA6702431D3E300ED9F21 /* FontAwesome5_Brands.ttf */; };
+		39AFA6812431D3E300ED9F21 /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 39AFA6712431D3E300ED9F21 /* MaterialCommunityIcons.ttf */; };
+		39AFA6822431D3E300ED9F21 /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 39AFA6722431D3E300ED9F21 /* AntDesign.ttf */; };
+		39AFA6832431D3E300ED9F21 /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 39AFA6732431D3E300ED9F21 /* Foundation.ttf */; };
+		39AFA6842431D3E300ED9F21 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 39AFA6742431D3E300ED9F21 /* Ionicons.ttf */; };
+		39AFA6852431D3E300ED9F21 /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 39AFA6752431D3E300ED9F21 /* FontAwesome5_Solid.ttf */; };
+		39AFA6862431D3E300ED9F21 /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 39AFA6762431D3E300ED9F21 /* FontAwesome5_Regular.ttf */; };
+		39AFA6872431D3E300ED9F21 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 39AFA6772431D3E300ED9F21 /* FontAwesome.ttf */; };
+		39AFA6882431D3E300ED9F21 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 39AFA6782431D3E300ED9F21 /* Zocial.ttf */; };
+		39AFA6892431D3E300ED9F21 /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 39AFA6792431D3E300ED9F21 /* EvilIcons.ttf */; };
+		39AFA68A2431D3E300ED9F21 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 39AFA67A2431D3E300ED9F21 /* SimpleLineIcons.ttf */; };
+		39AFA68B2431D3E300ED9F21 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 39AFA67B2431D3E300ED9F21 /* MaterialIcons.ttf */; };
 		492E2A9E644EF79A02832055 /* libPods-rebuildCrystalGame-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F754548B44DD174F7C913FA /* libPods-rebuildCrystalGame-tvOS.a */; };
 		AE14071DA7FE22BC9A7EA7CE /* libPods-rebuildCrystalGame-rebuildCrystalGameTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C1E7E2AADD7178206A243FEF /* libPods-rebuildCrystalGame-rebuildCrystalGameTests.a */; };
 		B0F75E0478DE37E9482015DE /* libPods-rebuildCrystalGame-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FB51C9AF3ACF0D472916232 /* libPods-rebuildCrystalGame-tvOSTests.a */; };
@@ -57,6 +73,22 @@
 		2D02E47B1E0B4A5D006451C7 /* rebuildCrystalGame-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "rebuildCrystalGame-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* rebuildCrystalGame-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "rebuildCrystalGame-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		312F7AD29DD5FA9715E0CA47 /* Pods-rebuildCrystalGame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rebuildCrystalGame.debug.xcconfig"; path = "Target Support Files/Pods-rebuildCrystalGame/Pods-rebuildCrystalGame.debug.xcconfig"; sourceTree = "<group>"; };
+		39AFA66C2431D3E300ED9F21 /* Fontisto.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Fontisto.ttf; sourceTree = "<group>"; };
+		39AFA66D2431D3E300ED9F21 /* Octicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Octicons.ttf; sourceTree = "<group>"; };
+		39AFA66E2431D3E300ED9F21 /* Feather.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Feather.ttf; sourceTree = "<group>"; };
+		39AFA66F2431D3E300ED9F21 /* Entypo.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Entypo.ttf; sourceTree = "<group>"; };
+		39AFA6702431D3E300ED9F21 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome5_Brands.ttf; sourceTree = "<group>"; };
+		39AFA6712431D3E300ED9F21 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MaterialCommunityIcons.ttf; sourceTree = "<group>"; };
+		39AFA6722431D3E300ED9F21 /* AntDesign.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AntDesign.ttf; sourceTree = "<group>"; };
+		39AFA6732431D3E300ED9F21 /* Foundation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Foundation.ttf; sourceTree = "<group>"; };
+		39AFA6742431D3E300ED9F21 /* Ionicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ionicons.ttf; sourceTree = "<group>"; };
+		39AFA6752431D3E300ED9F21 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome5_Solid.ttf; sourceTree = "<group>"; };
+		39AFA6762431D3E300ED9F21 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome5_Regular.ttf; sourceTree = "<group>"; };
+		39AFA6772431D3E300ED9F21 /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.ttf; sourceTree = "<group>"; };
+		39AFA6782431D3E300ED9F21 /* Zocial.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Zocial.ttf; sourceTree = "<group>"; };
+		39AFA6792431D3E300ED9F21 /* EvilIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = EvilIcons.ttf; sourceTree = "<group>"; };
+		39AFA67A2431D3E300ED9F21 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SimpleLineIcons.ttf; sourceTree = "<group>"; };
+		39AFA67B2431D3E300ED9F21 /* MaterialIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MaterialIcons.ttf; sourceTree = "<group>"; };
 		413852DC52D09D2E8360E5F0 /* Pods-rebuildCrystalGame-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rebuildCrystalGame-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-rebuildCrystalGame-tvOSTests/Pods-rebuildCrystalGame-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		4E530DF7AA53AA696F14029D /* Pods-rebuildCrystalGame-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rebuildCrystalGame-tvOS.release.xcconfig"; path = "Target Support Files/Pods-rebuildCrystalGame-tvOS/Pods-rebuildCrystalGame-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		7F754548B44DD174F7C913FA /* libPods-rebuildCrystalGame-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-rebuildCrystalGame-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -125,6 +157,7 @@
 		13B07FAE1A68108700A75B9A /* rebuildCrystalGame */ = {
 			isa = PBXGroup;
 			children = (
+				39AFA66B2431D3E300ED9F21 /* Fonts */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
@@ -147,6 +180,29 @@
 				1FB51C9AF3ACF0D472916232 /* libPods-rebuildCrystalGame-tvOSTests.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		39AFA66B2431D3E300ED9F21 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				39AFA66C2431D3E300ED9F21 /* Fontisto.ttf */,
+				39AFA66D2431D3E300ED9F21 /* Octicons.ttf */,
+				39AFA66E2431D3E300ED9F21 /* Feather.ttf */,
+				39AFA66F2431D3E300ED9F21 /* Entypo.ttf */,
+				39AFA6702431D3E300ED9F21 /* FontAwesome5_Brands.ttf */,
+				39AFA6712431D3E300ED9F21 /* MaterialCommunityIcons.ttf */,
+				39AFA6722431D3E300ED9F21 /* AntDesign.ttf */,
+				39AFA6732431D3E300ED9F21 /* Foundation.ttf */,
+				39AFA6742431D3E300ED9F21 /* Ionicons.ttf */,
+				39AFA6752431D3E300ED9F21 /* FontAwesome5_Solid.ttf */,
+				39AFA6762431D3E300ED9F21 /* FontAwesome5_Regular.ttf */,
+				39AFA6772431D3E300ED9F21 /* FontAwesome.ttf */,
+				39AFA6782431D3E300ED9F21 /* Zocial.ttf */,
+				39AFA6792431D3E300ED9F21 /* EvilIcons.ttf */,
+				39AFA67A2431D3E300ED9F21 /* SimpleLineIcons.ttf */,
+				39AFA67B2431D3E300ED9F21 /* MaterialIcons.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -194,7 +250,6 @@
 				E86D314B2FBD0D775D0A379D /* Pods-rebuildCrystalGame-tvOSTests.debug.xcconfig */,
 				413852DC52D09D2E8360E5F0 /* Pods-rebuildCrystalGame-tvOSTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -338,7 +393,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39AFA67C2431D3E300ED9F21 /* Fontisto.ttf in Resources */,
+				39AFA6872431D3E300ED9F21 /* FontAwesome.ttf in Resources */,
+				39AFA6832431D3E300ED9F21 /* Foundation.ttf in Resources */,
+				39AFA6862431D3E300ED9F21 /* FontAwesome5_Regular.ttf in Resources */,
+				39AFA6842431D3E300ED9F21 /* Ionicons.ttf in Resources */,
+				39AFA6892431D3E300ED9F21 /* EvilIcons.ttf in Resources */,
+				39AFA67F2431D3E300ED9F21 /* Entypo.ttf in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				39AFA6882431D3E300ED9F21 /* Zocial.ttf in Resources */,
+				39AFA68A2431D3E300ED9F21 /* SimpleLineIcons.ttf in Resources */,
+				39AFA67E2431D3E300ED9F21 /* Feather.ttf in Resources */,
+				39AFA67D2431D3E300ED9F21 /* Octicons.ttf in Resources */,
+				39AFA6802431D3E300ED9F21 /* FontAwesome5_Brands.ttf in Resources */,
+				39AFA6822431D3E300ED9F21 /* AntDesign.ttf in Resources */,
+				39AFA68B2431D3E300ED9F21 /* MaterialIcons.ttf in Resources */,
+				39AFA6852431D3E300ED9F21 /* FontAwesome5_Solid.ttf in Resources */,
+				39AFA6812431D3E300ED9F21 /* MaterialCommunityIcons.ttf in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
