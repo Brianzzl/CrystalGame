@@ -3,11 +3,16 @@ import {View, Text, StyleSheet, Button, TouchableOpacity} from 'react-native';
 import Icon from 'react-native-vector-icons/FontAwesome5';
 import Colors from '../constants/colors';
 
-const StartScreen = props => {
+const StartScreen = ({onStartGame}) => {
   return (
     <View style={styles.screen}>
       <Icon style={styles.icon} name="gem" size={130} color={Colors.green} />
-      <TouchableOpacity style={styles.button}>
+      <TouchableOpacity
+        style={styles.button}
+        activeOpacity={0.6}
+        onPress={() => {
+          onStartGame();
+        }}>
         <Text style={styles.buttonText}>START</Text>
       </TouchableOpacity>
 
