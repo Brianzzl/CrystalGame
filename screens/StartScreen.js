@@ -4,6 +4,7 @@ import Icon from 'react-native-vector-icons/FontAwesome5';
 import Colors from '../constants/colors';
 
 const StartScreen = ({onStartGame}) => {
+  console.log('start screen');
   return (
     <View style={styles.screen}>
       <Icon style={styles.icon} name="gem" size={130} color={Colors.green} />
