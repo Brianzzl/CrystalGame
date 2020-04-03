@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import {View, Text, StyleSheet, Button, TouchableOpacity} from 'react-native';
 import Icon from 'react-native-vector-icons/FontAwesome5';
 import _ from 'lodash';
@@ -7,16 +7,21 @@ import ScoreBoard from '../components/ScoreBoard';
 import CrystalContainer from '../components/CrystalContainer';
 
 //++++++++++++++++game Logic+++++++++++++++++++++++
+
 const randomValueGenerator = max => {
   const val = Math.floor(Math.random() * max + 1);
   return val;
 };
-const value = [
-  randomValueGenerator(15),
-  randomValueGenerator(15),
-  randomValueGenerator(15),
-  randomValueGenerator(15),
-];
+
+const generateValue = () => {
+  return (a = [
+    randomValueGenerator(15),
+    randomValueGenerator(15),
+    randomValueGenerator(15),
+    randomValueGenerator(15),
+  ]);
+};
+
 const total = value => {
   return (
     value[1] * randomValueGenerator(3) +
@@ -25,15 +30,20 @@ const total = value => {
     value[0] * randomValueGenerator(3)
   );
 };
-const target = total(value);
-// console.log(value);
-// console.log(target);
 
-const GameScreen = props => {
-  console.log('game screen');
+const GameScreen = ({onGameOver}) => {
+  const [valueArray, setValueArray] = useState(generateValue());
+  const [target, setTarget] = useState(total(valueArray));
 
   //totalValue is your current total score
   const [totalValue, setTotalValue] = useState(0);
+
+  useEffect(() => {
+    if (target <= totalValue) {
+      // console.log('target is smaller/equal to total now!');
+      onGameOver(target, totalValue);
+    }
+  }, [onGameOver, target, totalValue]);
 
   const [count1, setCount1] = useState(0);
   const [count2, setCount2] = useState(0);
@@ -58,9 +68,11 @@ const GameScreen = props => {
   };
 
   const updateTotalScore = countNumber => {
-    setTotalValue(totalValue + value[countNumber - 1]);
+    setTotalValue(totalValue + valueArray[countNumber - 1]);
+    // console.log('your score is : ' + totalValue);
+    // console.log('your target is : ' + target);
   };
-  //++++++++++++++++game Logic end+++++++++++++++++++++++
+
   return (
     <View style={styles.screen}>
       <View style={styles.scoreBoard}>
