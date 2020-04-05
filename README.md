@@ -6,9 +6,9 @@ React-native ios game
 - node
 - react-native-vector-icons
 
-# Screen shot of the app
-
-
+# Screenshots of the app
+![](gameScreenShoot/screenshot1.png)
+![](gameScreenShoot/screenshot2.png)![](gameScreenShoot/screenshot3.png)![](gameScreenShoot/screenshot4.png)![](gameScreenShoot/screenshot5.png)
 
 
 
