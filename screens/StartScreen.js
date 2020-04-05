@@ -7,7 +7,15 @@ const StartScreen = ({onStartGame}) => {
   console.log('start screen');
   return (
     <View style={styles.screen}>
-      <Icon style={styles.icon} name="gem" size={130} color={Colors.green} />
+      <TouchableOpacity
+        style={styles.button}
+        activeOpacity={0.6}
+        onPress={() => {
+          onStartGame();
+        }}>
+        <Icon style={styles.icon} name="gem" size={180} color={Colors.green} />
+      </TouchableOpacity>
+
       <TouchableOpacity
         style={styles.button}
         activeOpacity={0.6}
@@ -17,11 +25,11 @@ const StartScreen = ({onStartGame}) => {
         <Text style={styles.buttonText}>START</Text>
       </TouchableOpacity>
 
-      <Text style={styles.instructionTitle}>Game Instrucation:</Text>
+      <Text style={styles.instructionTitle}>Game Instruction:</Text>
       <Text style={styles.instruction}>
-        One can find this dialog by clicking on the big round Office button (top
-        left of Word) and then clicking on the Word Options button at the botton
-        of the dialog box.
+        There will be four crystals displayed as buttons in the game. Each
+        crystal has a random value that gets added to your total when clicked
+        on. Match your score wih target score to win the gane.
       </Text>
     </View>
   );
@@ -43,18 +51,21 @@ const styles = StyleSheet.create({
   buttonText: {
     color: '#8080ff',
     fontWeight: '800',
-    fontSize: 30,
+    fontSize: 40,
+    fontFamily: 'SpicyRice-Regular',
   },
   instructionTitle: {
-    paddingTop: 180,
+    paddingTop: 130,
     paddingBottom: 20,
     fontSize: 25,
     textAlign: 'left',
+    fontFamily: 'AlegreyaSans-Regular',
   },
   instruction: {
     fontSize: 15,
     paddingHorizontal: 20,
     textAlign: 'left',
+    fontFamily: 'AlegreyaSans-Light',
   },
 });
 

@@ -1,9 +1,9 @@
 import React, {useState} from 'react';
 import {View, Text, TouchableOpacity, StyleSheet} from 'react-native';
-import _ from 'lodash';
 import Icon from 'react-native-vector-icons/FontAwesome5';
+import Colors from '../constants/colors';
 
-const CrystalContainer = ({customStyle, name, onPress}) => {
+const CrystalContainer = ({customStyle, name, onPress, color}) => {
   const [clickCounter, setClickCounter] = useState(0);
 
   return (
@@ -11,8 +11,8 @@ const CrystalContainer = ({customStyle, name, onPress}) => {
       onPress={onPress}
       style={{...styles.container, ...customStyle}}
       activeOpacity={0.5}>
-      <Icon style={styles.icon} name={name} size={100} color="black" />
-      <Text>{name}</Text>
+      <Icon style={styles.icon} name={name} size={100} color={color} />
+      {/* <Text>{name}</Text> */}
     </TouchableOpacity>
   );
 };
