@@ -7,12 +7,9 @@ React-native ios game
 - react-native-vector-icons
 
 # Screenshots of the app
-![](gameScreenShoot/screenshot1.png)
-![](gameScreenShoot/screenshot2.png)
-![](gameScreenShoot/screenshot3.png)
-![](gameScreenShoot/screenshot4.png)
-![](gameScreenShoot/screenshot5.png)
-
-
-
+<img src="gameScreenShoot/screenshot1.png" width="50%"/>
+<img src="gameScreenShoot/screenshot2.png" width="50%"/>
+<img src="gameScreenShoot/screenshot3.png" width="50%"/>
+<img src="gameScreenShoot/screenshot4.png" width="50%"/>
+<img src="gameScreenShoot/screenshot5.png" width="50%"/>
 
